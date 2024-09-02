@@ -1,0 +1,10 @@
+:root {
+  --font: "Unbounded", sant-serif;
+
+  --accent: #7027e2;
+  --light: #fff;
+  --gray: #d9d9d9;
+  --dark: #2a2f36;
+
+  --tr: 0.3s;
+}

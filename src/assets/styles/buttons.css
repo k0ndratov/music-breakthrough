@@ -1,0 +1,11 @@
+.registration-button {
+  padding: 54px 0;
+  width: 100%;
+  border: 0;
+  border-radius: 20px;
+  background-color: var(--accent);
+  color: var(--light);
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+}

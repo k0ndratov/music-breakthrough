@@ -1,0 +1,42 @@
+.main-banner {
+  border-radius: 50px;
+  background-image: url("/img/banner-background.svg");
+  background-size: cover;
+  padding: 100px 50px;
+  box-sizing: border-box;
+
+  h1 {
+    margin: 0 0 20px 0;
+  }
+  .main-banner__main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .main-banner__box {
+      display: flex;
+      position: relative;
+      border: 1px solid var(--light);
+      padding: 30px;
+      border-radius: 20px;
+
+      img {
+        position: absolute;
+        top: -100px;
+        right: -30px;
+      }
+
+      .banner-box {
+        h2 {
+          text-transform: uppercase;
+          font-size: 24px;
+          margin: 0 0 30px 0;
+        }
+
+        p {
+          max-width: 670px;
+        }
+      }
+    }
+  }
+}

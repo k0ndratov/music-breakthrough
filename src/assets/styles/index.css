@@ -1,0 +1,23 @@
+@import "./variables.css";
+@import "./font.css";
+@import "./reset.css";
+
+@import "./link.css";
+@import "./headings.css";
+@import "./container.css";
+@import "./buttons.css";
+
+/* Components */
+@import "./../../components/PageHeader/PageHeader.css";
+@import "./../../components/MainBanner/MainBanner.css";
+
+body {
+  background-color: var(--dark);
+  font-size: 20px;
+  line-height: 110%;
+  color: var(--light);
+}
+
+p {
+  font-size: 24px;
+}
